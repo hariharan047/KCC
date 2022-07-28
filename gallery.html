@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*
+		{
+			box-sizing: border-box;
+		}
+		.a
+		{
+			display: flex;
+			justify-content: flex-end;
+			background: pink;
+		}
+		.a>a
+		{
+			text-decoration: none;
+			display: block;
+			color: blue;
+			padding: 10px;
+		}
+		.a>a:hover
+		{
+			background: yellow;
+		}
+		.footer
+		{
+			display: flex;
+			justify-content: center;
+			background: pink;
+		}
+		.footer>a
+		{
+			text-decoration: none;
+			padding: 10px;
+			color: blue;
+		}
+		.footer>a:hover
+		{
+			background: yellow;
+		}
+		table
+		{
+			border: 10px solid red;
+			height: 700px;
+			text-align: center;
+			font-size: 20px;
+		}
+		textarea
+		{
+			display: flex;
+			justify-content: flex-start;
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="a">
+		<a href="index.html">Home</a>
+		<a href="gallery.html">Gallery</a>
+	</div>
+	<div>
+		<table border="10" cellspacing="10" cellpadding="10" width="100%">
+			<tr>
+				<td>img 1</td>
+				<td>img2</td>
+				<td>img3</td>
+			</tr>
+			<tr>
+				<td>img4</td>
+				<td>img5</td>
+				<td>img6</td>
+			</tr>
+			<tr>
+				<td>img7</td>
+				<td>img8</td>
+				<td>img9</td>
+			</tr>
+		</table>
+	</div>
+	<div class="footer">
+		Address<textarea row="5" cols="5"></textarea>
+		<a href="index.html">Home</a>
+	</div>
+
+</body>
+</html>

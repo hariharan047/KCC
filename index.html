@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*
+		{
+			box-sizing: border-box;
+		}
+		.a
+		{
+			display: flex;
+			justify-content: flex-end;
+			background: pink;
+		}
+		.a>a
+		{
+			text-decoration: none;
+			display: block;
+			color: blue;
+			padding: 10px;
+		}
+		.a>a:hover
+		{
+			background: yellow;
+		}
+		.row
+		{
+			display: flex;
+		}
+		.side
+		{
+			flex: 30%;
+			align-items: stretch;
+			padding: 10px;
+			margin: 10px;
+			height: 700px;
+			font-size: 20px;
+			font-family: arial;
+		}
+		.main
+		{
+			flex: 70%;
+			align-items: stretch;
+			padding: 10px;
+			margin: 10px;
+			height: 700px;
+			font-size: 20px;
+			font-family: arial;
+			background: pink;
+		}
+		.footer
+		{
+			display: flex;
+			justify-content: center;
+			background: pink;
+			height: 100px;
+		}
+		.footer>a
+		{
+			text-decoration: none;
+			padding: 10px;
+			color: blue;
+		}
+		.footer>a:hover
+		{
+			background: yellow;
+		}
+		.fake
+		{
+			display: flex;
+			background: green;
+			font-size: 20px;
+			padding: 10px;
+			margin: 10px;
+			color: white;
+			width: 100%;
+			line-height: 300px;
+		}
+		textarea
+		{
+			display: flex;
+			justify-content: flex-start;
+		}
+		
+	</style>
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body>
+	<div class="a">
+		<a href="index.html">Home</a>
+		<a href="gallery.html">Gallery</a>
+	</div>
+	<div class="row">
+		<div class="side">
+			<div class="fake">about....</div>
+			<div class="fake">img.....</div>
+		</div>
+		<div class="main">
+			<div class="fake">pervious year details....</div>
+			<div class="fake">img...</div>
+		</div>
+	</div>
+	<div class="footer">
+		Address<textarea row="5" cols="50"></textarea>
+		<a href="index.html">Home</a>
+	</div>
+
+</body>
+</html>
